@@ -1,13 +1,41 @@
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+    }
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+  h1 {
+    color: steelblue;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+  P {
+    padding: 0px;
+}
+  
 main {
   max-width: 840px;
 }
 
 aside {
   aside {
-    width: 300px; 
-    margin: 20px; 
+    width: 20em; 
+    margin: 1em; 
     border: 2px solid #FF7F50; 
-    padding: 10px; 
+    padding: 1em; 
     background-color: #FFA07A; 
     color: #FFFFFF; 
   }
@@ -26,31 +54,3 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
-
-nav {
-    background-color: steelblue;
-    padding: 10px;
-    }
-
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
-}
-
-  h1 {
-    color: steelblue;
-}
-
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-
-  P {
-    padding: 10px;
-}
-  
