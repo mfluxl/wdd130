@@ -14,43 +14,48 @@ nav a {
     color: steelblue;
 }
 
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+
+P {
+  padding: 0px;
 }
 
-  P {
-    padding: 0px;
-}
-  
 main {
   max-width: 840px;
 }
 
+
 aside {
   aside {
-    width: 20em; 
+    width: 20rem; 
     margin: 1em; 
     border: 2px solid #FF7F50; 
-    padding: 1em; 
+    padding: 1rem; 
     background-color: #FFA07A; 
     color: #FFFFFF; 
+    
   }
 }
 
 aside img {
 width: 200px;
 height: auto;
+border: 2px solid #FF7F50; 
+padding: 1px; 
+box-shadow: 0 0 30px gray;
+}
 
+main img {
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
 }
 
 p { padding: 0;}
 
 footer {
-  margin-top: 3em;
+  margin-top: 3rem;
   border-top: 1px solid #000;
   text-align: center;
 }
