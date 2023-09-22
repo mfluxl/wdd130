@@ -1,7 +1,7 @@
 nav {
     background-color: steelblue;
     padding: 10px;
-}
+    }
 
 nav a {
     color: white;
@@ -9,7 +9,7 @@ nav a {
     padding: 20px;
 }
 
-h1 {
+  h1 {
     color: steelblue;
 }
 
@@ -21,6 +21,7 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-P {
+  P {
     padding: 10px;
 }
+  
