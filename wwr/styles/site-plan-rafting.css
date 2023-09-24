@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+:root {
+
+    --primary-color: #17BEBB;
+    --secondary-color: #2E282A;
+    --accent1-color: #CD5334;
+    --accent2-color: #EDB88B;
+    --extra-color: #FAD8D6;
+    --heading-font: Georgia, serif;
+    --paragraph-font: Underdog;
+    --nav-background-color: #FAD8D6;
+    --nav-link-color: #2E282A;
+    --nav-hover-link-color: #17BEBB;
+    --nav-link-color: #EDB88B;
+    --nav-hover-background-color: #17BEBB;
+}
+
+
+body {
+    font-family: Roboto, Helvetiva, sans-serif;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color)
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--extra-color);
+}
+
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--accent1-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+    font-size: 20px;
+}
+
+
+P {
+    padding: 25px;
+    color: var(--extra-color);
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+}
+
+
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+footer {
+    margin: 0 auto;
+}
