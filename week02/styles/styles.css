@@ -1,17 +1,16 @@
-
 nav {
-    background-color: steelblue;
-    padding: 10px;
-    }
-
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
+  background-color: steelblue;
+  padding: 10px;
 }
 
-  h1 {
-    color: steelblue;
+nav a {
+  color: white;
+  display: block;
+  padding: 20px;
+}
+
+h1 {
+  color: steelblue;
 }
 
 
@@ -25,23 +24,20 @@ main {
 
 
 aside {
-  aside {
-    width: 20em; 
-    margin: 1em; 
-    border: 2px solid #FF7F50; 
-    padding: 1em; 
-    background-color: #FFA07A; 
-    color: #FFFFFF; 
-    
-  }
+  width: 20em;
+  margin: 1em;
+  border: 2px solid #FF7F50;
+  padding: 1em;
+  background-color: #FFA07A;
+  color: #FFFFFF;
 }
 
 aside img {
-width: 200px;
-height: auto;
-border: 2px solid #FF7F50; 
-padding: 1px; 
-box-shadow: 0 0 30px gray;
+  width: 200px;
+  height: auto;
+  border: 2px solid #FF7F50;
+  padding: 1px;
+  box-shadow: 0 0 30px gray;
 }
 
 main img {
@@ -52,7 +48,9 @@ main img {
   box-shadow: 0 0 30px gray;
 }
 
-p { padding: 0;}
+p {
+  padding: 0;
+}
 
 footer {
   margin-top: 3rem;

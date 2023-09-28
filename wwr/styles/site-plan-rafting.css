@@ -36,7 +36,12 @@ body {
     margin: 0 auto
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--secondary-color)
 }
@@ -80,7 +85,8 @@ nav a {
     padding: 1rem;
 }
 
-nav a:link, nav a:visited {
+nav a:link,
+nav a:visited {
     color: var(--nav-hover-link-color);
 }
 
