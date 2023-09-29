@@ -17,14 +17,17 @@
 }
 
 
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+header {
+    padding: 20px;
+    color: var(--accent1-color);
+    font-size: 20px;
+    background-color: var(--primary-color);
 
 }
 
-
 body {
     font-family: var(--paragraph-font);
+    background-color: var(--nav-link-color);
     max-width: 960px;
     padding: 20px;
     font-size: 16px;
@@ -32,7 +35,13 @@ body {
     margin: 0 auto
 }
 
-h1,
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
 h2,
 h3 {
     font-family: Arial, sans-serif;
@@ -45,17 +54,14 @@ h3 {
     color: var(--primary-color);
 }
 
+.smallerh3 {
+    font-size: smaller;
+    font-family: Roboto;
+}
+
 h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--accent1-color);
-}
-
-header {
-    padding: 20px;
-    color: var(--accent1-color);
-    font-size: 20px;
-    background-color: var(--primary-color);
-
 }
 
 
