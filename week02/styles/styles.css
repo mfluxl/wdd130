@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   background-color: steelblue;
   padding: 10px;
@@ -13,7 +19,6 @@ h1 {
   color: steelblue;
 }
 
-
 P {
   padding: 0px;
 }
@@ -24,48 +29,67 @@ main {
 
 aside {
   width: 20em;
-  margin: 1px;
-  border: 2px solid #FF7F50;
-  padding: 1em;
-  background-color: #FFA07A;
-  color: #FFFFFF;
   align-self: auto;
+
 }
 
 aside img {
   width: 200px;
   height: auto;
-  border: 2px solid #FF7F50;
-  padding: 1px;
+  border: 1px solid #FF7F50;
   box-shadow: 0 0 30px gray;
+
 }
 
 main img {
-  width: 150px;
+  width: 200px;
   height: auto;
   border: 1px solid steelblue;
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
-}
-
-p {
-  padding: 0;
-}
-
-.box {
-  margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1px;
-  background-color: #ffd4c4;
-  color: #000;
+  box-shadow: 0 0 30px gray;
+  position: relative;
+  float: right;
+
 }
 
-.indent {
-  padding-left: 2rem;
+main p {
+  padding-bottom: 10rem;
+  text-indent: 30px;
+  text-align: justify;
+  padding: 15px;
+  width: 600px;
+  height: auto;
+}
+
+main p:hover {
+  background-color: black;
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
 }
 
 footer {
   margin-top: 3rem;
   border-top: 1px solid #000;
   text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+
+  margin: 1px;
+  border: 2px solid #FF7F50;
+  padding: 1em;
+  background-color: #FFA07A;
+  color: #FFFFFF;
+
+}
+
+.indent {
+  padding-left: 3rem;
 }
