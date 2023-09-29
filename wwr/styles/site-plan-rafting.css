@@ -16,6 +16,7 @@
     --nav-hover-background-color: #17BEBB;
 }
 
+
 header {
     padding: 20px;
     color: var(--accent1-color);
@@ -84,6 +85,24 @@ nav {
     font-size: 1.2rem;
     display: flex;
 }
+
+nav a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: #000;
+    background-color: var(--nav-hover-background-color);
+}
+
 
 footer {
     margin: 0 auto;
