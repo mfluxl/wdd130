@@ -25,6 +25,7 @@ P {
 
 main {
   max-width: 840px;
+  background-color: gainsboro;
 }
 
 aside {
@@ -77,6 +78,26 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
+
+section {
+  position: absolute;
+  left: 410px;
+  top: 445px;
+  background-color: lightgray;
+
+
+}
+
+.snake {
+  font-family: Verdana, sans-serif;
+  color: steelblue;
+}
+
+section h1 {
+  color: steelblue;
+  font-family: Verdana, sans-serif;
+}
+
 
 /* Class Selectors */
 
