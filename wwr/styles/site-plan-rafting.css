@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
 
 :root {
 
@@ -17,10 +17,6 @@
 }
 
 
-body {
-    font-family: Roboto, Helvetiva, sans-serif;
-}
-
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -38,61 +34,44 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--heading-font);
-    color: var(--secondary-color)
-}
-
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h3 {
+    font-family: Arial, sans-serif;
     color: var(--extra-color);
 }
 
 
 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--primary-color);
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--accent1-color);
 }
 
 header {
     padding: 20px;
-    background-color: var(--primary-color);
+    color: var(--accent1-color);
     font-size: 20px;
+    background-color: var(--primary-color);
+
 }
 
 
-P {
+p {
     padding: 25px;
-    color: var(--extra-color);
-    font-family: var(--paragraph-font);
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color: var(--secondary-color);
     font-size: 18px;
 }
 
 
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-}
-
-nav a {
+.toplogo {
+    position: absolute;
     display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
+    margin: 25px;
 
-nav a:link,
-nav a:visited {
-    color: var(--nav-hover-link-color);
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
 }
 
 img {
@@ -100,6 +79,30 @@ img {
     margin: 0 auto;
 
 }
+
+nav {
+    background-color: var(--extra-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: #000;
+    background-color: var(--nav-hover-background-color);
+}
+
 
 footer {
     margin: 0 auto;
