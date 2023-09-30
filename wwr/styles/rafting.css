@@ -32,10 +32,13 @@ article p {
 
 
 p {
-    padding: 2px;
+    padding: 1px;
     font-family: Roboto;
     font-size: large;
-    color: green;
+    color: rgb(6, 5, 6);
+    position: relative;
+    top: 0;
+    font-weight: bold;
 
 }
 
@@ -44,7 +47,7 @@ p {
     font-family: Roboto;
     font-size: large;
     color: #2E282A;
-    border: 5rems;
+    border: 5px;
 }
 
 .hero img {
