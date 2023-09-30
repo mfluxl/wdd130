@@ -15,11 +15,11 @@ body {
     max-width: 400px;
 }
 
-main div {
+main body nav a {
     padding: 0px;
     height: auto;
     top: 0;
-    position: relative;
+    position: absolute;
 
 
 }
@@ -54,7 +54,7 @@ p {
     color: #2E282A;
     border: 5px;
     position: absolute;
-    top: 70px;
+    top: 50px;
     left: 600px;
 }
 
