@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+:root {
+    margin: 0;
+    padding: 0;
+    --primary-color: #17BEBB;
+    --secondary-color: #2E282A;
+    --accent1-color: #CD5334;
+    --accent2-color: #EDB88B;
+    --extra-color: #FAD8D6;
+    ;
+}
+
+body {
+    max-width: 400px;
+}
+
+main div {
+    padding: 0px;
+    height: auto;
+    top: 0;
+    position: relative;
+
+
+}
+
+
+article p {
+    position: absolute;
+    top: 0;
+}
+
+
+p {
+    padding: 2px;
+    font-family: Roboto;
+    font-size: large;
+    color: green;
+
+}
+
+.raft {
+    padding: 2px;
+    font-family: Roboto;
+    font-size: large;
+    color: #2E282A;
+    border: 5rems;
+}
+
+.hero img {
+    padding: 2px;
+    font-family: Roboto;
+    font-size: large;
+    color: #2E282A;
+    border: 5px;
+    position: absolute;
+    top: 70px;
+    left: 600px;
+}
+
+
+section img {
+    max-width: 200px;
+}
+
+.sociallinks {
+    text-decoration: none;
+}
