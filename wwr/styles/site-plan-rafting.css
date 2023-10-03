@@ -2,17 +2,18 @@
 
 :root {
 
-    --primary-color: #17BEBB;
+    --primary-color: #1e8cb0;
     --secondary-color: #2E282A;
-    --accent1-color: #CD5334;
-    --accent2-color: #EDB88B;
-    --extra-color: #FAD8D6;
+    --accent1-color: #142f48;
+    --accent2-color: #e953da;
+    --extra-color: #f5c1f0;
+
     --heading-font: Georgia, serif;
     --paragraph-font: Underdog;
-    --nav-background-color: #FAD8D6;
-    --nav-link-color: #2E282A;
+
+    --nav-background-color: #4c44cf;
+    --nav-link-color: #f5c1f0;
     --nav-hover-link-color: #17BEBB;
-    --nav-link-color: #EDB88B;
     --nav-hover-background-color: #17BEBB;
 }
 
@@ -35,6 +36,12 @@ body {
     margin: 0 auto
 }
 
+h1,
+h2,
+h3,
+h4 {
+    color-scheme: var(--accent2-color);
+}
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -44,13 +51,13 @@ h1 {
 
 h2 {
     font-family: Arial, sans-serif;
-    color: var(--extra-color);
+
 }
 
 h3,
 h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: var(--primary-color);
+
 }
 
 .smallerh3 {
@@ -81,7 +88,7 @@ img {
 }
 
 nav {
-    background-color: var(--extra-color);
+    background-color: var(--accent1-color);
     font-size: 1.2rem;
     display: flex;
 }
@@ -94,9 +101,15 @@ nav a {
 
 }
 
+nav a:link {
+    color: var(--nav-hover-background-color);
+}
+
+
 nav a:visited {
     color: var(--nav-hover-link-color);
 }
+
 
 nav a:hover {
     color: #000;
