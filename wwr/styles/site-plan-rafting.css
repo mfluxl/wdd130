@@ -2,25 +2,25 @@
 
 :root {
 
-    --primary-color: #1e8cb0;
-    --secondary-color: #2E282A;
-    --accent1-color: #142f48;
-    --accent2-color: #e953da;
-    --extra-color: #f5c1f0;
+    --primary-color: #94c595;
+    --secondary-color: #3a2449;
+    --accent1-color: #94c595;
+    --accent2-color: #747c92;
+    --extra-color: #a1e8af;
 
     --heading-font: Georgia, serif;
     --paragraph-font: Underdog;
 
-    --nav-background-color: #4c44cf;
-    --nav-link-color: #f5c1f0;
-    --nav-hover-link-color: #17BEBB;
-    --nav-hover-background-color: #17BEBB;
+    --nav-background-color: #372772;
+    --nav-link-color: #372772;
+    --nav-hover-link-color: #747c92;
+    --nav-hover-background-color: #a1e8af;
 }
 
 
 header {
     padding: 20px;
-    color: var(--accent1-color);
+    color: var(--secondary-color);
     font-size: 20px;
     background-color: var(--primary-color);
 
@@ -28,7 +28,7 @@ header {
 
 body {
     font-family: var(--paragraph-font);
-    background-color: var(--nav-link-color);
+    background-color: var(--accent2-color);
     max-width: 960px;
     padding: 20px;
     font-size: 16px;
@@ -40,7 +40,7 @@ h1,
 h2,
 h3,
 h4 {
-    color-scheme: var(--accent2-color);
+    color-scheme: var(--accent1-color);
 }
 
 h1 {
@@ -57,6 +57,7 @@ h2 {
 h3,
 h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--extra-color);
 
 }
 
