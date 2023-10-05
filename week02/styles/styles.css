@@ -37,14 +37,12 @@ aside {
 
 
 aside h2 {
-  top: 3%;
-  left: 28%;
+  top: 5%;
+  left: 45%;
   position: absolute;
   color: black;
-  text-shadow: 5px 5px 10px orangered;
 
 }
-
 
 aside img {
   width: 200px;
@@ -87,8 +85,8 @@ a:hover {
 
 footer {
   margin-top: 3rem;
-  border-top: 1px solid #000;
-  text-align: center;
+  text-align: left;
+  font-size: large;
 }
 
 section {
