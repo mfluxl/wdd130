@@ -43,8 +43,9 @@ h3,
 h4,
 h5,
 h6 {
-    /* meeting the criteria*/
+    font-weight: bold;
 }
+
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -57,12 +58,14 @@ h2 {
 
 }
 
+
 h3,
 h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--extra-color);
 
 }
+
 
 .smallerh3 {
     font-size: smaller;
@@ -85,17 +88,20 @@ p {
 
 }
 
+
 img {
     display: block;
     margin: 0 auto;
 
 }
 
+
 nav {
     background-color: var(--accent1-color);
     font-size: 1.2rem;
     display: flex;
 }
+
 
 nav a {
     display: block;
@@ -104,6 +110,7 @@ nav a {
     padding: 1rem;
 
 }
+
 
 nav a:link {
     color: var(--nav-hover-background-color);
