@@ -31,8 +31,20 @@ main {
 aside {
   width: 20em;
   align-self: auto;
+  position: relative;
 
 }
+
+
+aside h2 {
+  top: 3%;
+  left: 28%;
+  position: absolute;
+  color: black;
+  text-shadow: 5px 5px 10px orangered;
+
+}
+
 
 aside img {
   width: 200px;
@@ -87,6 +99,7 @@ section {
 
 
 }
+
 
 .snake {
   font-family: Verdana, sans-serif;
