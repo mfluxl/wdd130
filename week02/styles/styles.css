@@ -35,12 +35,12 @@ aside {
 
 }
 
-
 aside h2 {
-  top: 5%;
+  top: 4%;
   left: 45%;
   position: absolute;
   color: black;
+  text-shadow: 5px 5px 10px #FF7F50;
 
 }
 
@@ -98,11 +98,6 @@ section {
 
 }
 
-
-.snake {
-  font-family: Verdana, sans-serif;
-  color: steelblue;
-}
 
 section h1 {
   color: steelblue;
