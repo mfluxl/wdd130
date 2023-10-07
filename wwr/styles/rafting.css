@@ -183,18 +183,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-nav.sociallinks {
+.sociallinks {
     text-decoration: none;
     margin: 1rem auto;
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     border-bottom: 2px solid blueviolet;
 }
 
-footer h3 {
-    padding-left: 40rem;
+.h3 {
+    /*padding-left: 40rem;*/
     color: whitesmoke;
     font-size: larger;
+    
 }
 /*
 footer {
