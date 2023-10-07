@@ -3,35 +3,47 @@
 :root {
     margin: 0;
     padding: 0;
-    --primary-color: #17BEBB;
-    --secondary-color: #2E282A;
-    --accent1-color: #CD5334;
-    --accent2-color: #EDB88B;
-    --extra-color: #FAD8D6;
-    ;
+    --primary-color: #94c595;
+    --secondary-color: #3a2449;
+    --accent1-color: #94c595;
+    --accent2-color: #747c92;
+    --extra-color: #a1e8af;
+
+    
 }
+
+.logo {
+
+    width: 35%;
+    height: auto;
+    
+}
+
+body nav a {
+    font-size: xx-large;
+}
+
 
 body {
-    max-width: 400px;
+    max-width: 960px;
+    padding-left: 25%;
+}
+
+.background-image {
+    width: 100%;
+    opacity: 1;
+    max-height: 500px;
+    
 }
 
 
-main body nav a {
-    padding: 0px;
-    height: auto;
-    top: 0;
-    position: absolute;
-
-
-}
-
-
+/*
 article p {
     position: absolute;
     top: 0;
 }
-
-
+*/
+/*
 p {
     padding: 1px;
     font-family: Roboto;
@@ -42,31 +54,92 @@ p {
     font-weight: bold;
 
 }
-
-.raft {
-    padding: 2px;
-    font-family: Roboto;
-    font-size: large;
-    color: #2E282A;
-    border: 5px;
+*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
-.hero img {
-    padding: 2px;
-    font-family: Roboto;
-    font-size: large;
-    color: #2E282A;
-    border: 5px;
+.hero {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+.hero section p {
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.hero h1 {
+    font-size: 40px;
+    top: 60px;
+    text-align: center;
+    font-family: var(--secondary-color);
     position: absolute;
-    top: 50px;
-    left: 600px;
+    background-color: black;
+    width: 100%;
+    top: 7%;
+    opacity: 0.8;
+
 }
 
+.hero h2 {
+    font-size: 30px;
+    color: var(--);
+}
 
-section img {
-    max-width: 200px;
+.hero article {
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    /* text-align: justify; */
+    width: 920px;
+    height: 150px;
+    top: 1%;
+    background-color: var(--primary-color);
+    opacity: 0.9;
+    padding: 20px ;
+
+}
+
+.hero article p {
+    text-align: left;
+    color:var(--secondary-color);
+    
+    
+}
+
+.hero article img {
+    
+    float: right;
+    top: 15px;
+    width: 210px;
+
+}
+
+.hero section img {
+    width: 960px;
+    max-height: auto;
+    
+}
+
+.hero section {
+    font-size: 150%;
+    text-align: center;
+    color: var(--secondary-color);
 }
 
 .sociallinks {
     text-decoration: none;
+}
+
+
+footer {
+    position: absolute;
+    font-size: 239%;
+    color: black;
+   
 }
