@@ -2,17 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 nav {
   background-color: steelblue;
-  padding: 10px;
   display: flex;
+  margin-right: 47.9%;
+
 }
+
+
+body {
+  padding-left: 30%;
+}
+
 
 nav a {
   color: white;
-  display: block;
+  /*display: block;*/
   padding: 20px;
   font-size: 24px;
   text-decoration: none;
@@ -31,10 +39,11 @@ main {
   max-width: 840px;
   background-color: gainsboro;
   font-size: x-large;
+
 }
 
 aside {
-  width: 20rem;
+  width: 42em;
   align-self: auto;
   position: relative;
   font-size: 20px;
@@ -42,16 +51,17 @@ aside {
 }
 
 aside h2 {
-  top: 4%;
-  left: 40%;
+  top: 6%;
+  left: 10%;
   position: absolute;
   color: black;
   text-shadow: 5px 5px 10px #FF7F50;
+  
 
 }
 
 aside img {
-  width: 200px;
+  width: 300px;
   height: auto;
   border: 1px solid #FF7F50;
   box-shadow: 0 0 30px gray;
@@ -106,12 +116,15 @@ footer {
 
   margin: 1px;
   border: 2px solid #FF7F50;
-  padding: 1em;
+  padding: 1rem;
   background-color: #FFA07A;
-  color: #FFFFFF;
-
+  color: #FFFFFF; 
+  
+  
 }
 
 .indent {
   padding-left: 3rem;
+  font-size: medium;
+  height: 80px;
 }
