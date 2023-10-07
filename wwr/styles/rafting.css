@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
 }
 
-
+/*The bar on top of the hero pic:*/
 .hero h1 {
     font-size: 40px;
     text-align: center;
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: black;
     color: var(--whitewater-color);
     width: 100%;
-    top: px;
+    top: 9px;
     opacity: 0.8;
 
 }
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero section img {
     width: 960px;
-    max-height: auto;
+    /*max-height: auto;*/
     
 }
 
