@@ -14,10 +14,13 @@ nav a {
   color: white;
   display: block;
   padding: 20px;
+  font-size: 24px;
+  text-decoration: none;
 }
 
 h1 {
   color: steelblue;
+  font-size: 33px;
 }
 
 P {
@@ -27,18 +30,20 @@ P {
 main {
   max-width: 840px;
   background-color: gainsboro;
+  font-size: x-large;
 }
 
 aside {
-  width: 20em;
+  width: 20rem;
   align-self: auto;
   position: relative;
+  font-size: 20px;
 
 }
 
 aside h2 {
   top: 4%;
-  left: 45%;
+  left: 40%;
   position: absolute;
   color: black;
   text-shadow: 5px 5px 10px #FF7F50;
@@ -68,14 +73,16 @@ main p {
   padding-bottom: 10rem;
   text-indent: 30px;
   text-align: justify;
+  font-size: 20px;
   padding: 15px;
   width: 600px;
   height: auto;
 }
 
 main p:hover {
-  background-color: black;
-  color: #FFFFFF;
+  background-color: rgb(225, 117, 35);
+  color: rgb(128, 19, 124);
+  font-weight: bolder;
 }
 
 a:hover {
@@ -90,20 +97,7 @@ footer {
   font-size: large;
 }
 
-section {
-  position: absolute;
-  left: 410px;
-  top: 445px;
-  background-color: lightgray;
 
-
-}
-
-
-section h1 {
-  color: steelblue;
-  font-family: Verdana, sans-serif;
-}
 
 
 /* Class Selectors */
