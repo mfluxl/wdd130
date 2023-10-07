@@ -64,7 +64,7 @@ nav a:hover {
 
 body {
     max-width: 1900px;
-    padding-left: 2.5%;
+    
 }
 
 .background-image {
@@ -138,8 +138,9 @@ h1, h2, h3, h4, h5, h6 {
     /*text-align: center; */
     width: 500px;
     height: 120px;
-    top: 310px;
-    right: 3px;
+    /*top: 230px;*/
+    top: 10rem;
+    right: 1px;
     background-color: black;
     color: rgb(138, 177, 241);
     opacity: 0.8;
