@@ -8,13 +8,7 @@
 nav {
   background-color: steelblue;
   display: flex;
-  margin-right: 47.9%;
 
-}
-
-
-body {
-  padding-left: 30%;
 }
 
 
@@ -31,9 +25,7 @@ h1 {
   font-size: 33px;
 }
 
-P {
-  padding: 0px;
-}
+
 
 main {
   max-width: 840px;
@@ -43,8 +35,7 @@ main {
 }
 
 aside {
-  width: 42em;
-  align-self: auto;
+  max-width: 840px;
   position: relative;
   font-size: 20px;
 
@@ -63,7 +54,6 @@ aside h2 {
 aside img {
   width: 300px;
   height: auto;
-  border: 1px solid #FF7F50;
   box-shadow: 0 0 30px gray;
 
 }
@@ -106,8 +96,6 @@ footer {
   text-align: left;
   font-size: large;
 }
-
-
 
 
 /* Class Selectors */
