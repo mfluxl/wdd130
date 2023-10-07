@@ -25,8 +25,8 @@ body nav a {
 
 
 body {
-    max-width: 960px;
-    padding-left: 25%;
+    max-width: 1600px;
+    padding-left: 10%;
 }
 
 .background-image {
@@ -138,8 +138,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 footer {
-    position: absolute;
+    
     font-size: 239%;
     color: black;
+    padding: 5%;
+    padding-left: 20%;
    
 }
