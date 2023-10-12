@@ -149,9 +149,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 25px;
     /*text-align: center; */
     width: 500px;
-    height: 120px;
+    height: 205px;
     /*top: 230px;*/
-    top: 10rem;
+    top: 125px;
     right: 1px;
     background-color: black;
     color: rgb(138, 177, 241);
@@ -162,24 +162,28 @@ h1, h2, h3, h4, h5, h6 {
 
 /*The adrenaline-box picture:*/
 .hero article img {
+    position: relative;
     
     float: right;
-    top: 15px;
-    width: 162px;
+    width: 160px;
+    
     border-radius: 30px
 
 }
 
 .hero section img {
     width: 960px;
+
     /*max-height: auto;*/
     
 }
 
 .hero section {
-    font-size: 150%;
+    margin-top: 1px;
+    font-size: 100%;
     text-align: center;
     color: var(--secondary-color);
+    
 }
 
 
