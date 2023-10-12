@@ -153,10 +153,13 @@ h1, h2, h3, h4, h5, h6 {
     /*top: 230px;*/
     top: 125px;
     right: 1px;
-    background-color: black;
-    color: rgb(138, 177, 241);
+    background-color: #0c121642;
+    color: var(--nav-bg-color);
     opacity: 0.8;
     border-radius: 30px;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
 
 }
 
