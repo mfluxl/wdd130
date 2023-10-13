@@ -48,7 +48,7 @@ header {
 nav.head {
     background-color: var(--nav-bg-color);
     font-size: 1.2rem;
-    display: flex
+    display: flex;
     color: #fff;
     text-decoration: none;
     padding: 1rem;
