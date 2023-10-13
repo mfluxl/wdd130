@@ -25,6 +25,8 @@ header {
     align-items: center;
     border-bottom: 2px solid blueviolet;
     max-width: 1900px;
+    
+    
 }
 
 
@@ -41,6 +43,7 @@ header {
     text-decoration: none;
     padding: 1rem;
     
+    
         
 }
 
@@ -52,12 +55,15 @@ nav.head {
     color: #fff;
     text-decoration: none;
     padding: 1rem;
+   
+    
     
   
 }
 
 nav.head li {
     flex: 1 1 100%;
+    
 
 }
 
@@ -115,6 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: auto;
     position: relative;
+    
 }
 
 
@@ -155,11 +162,11 @@ h1, h2, h3, h4, h5, h6 {
     top: 125px;
     right: 1px;
     background-color: #0c121642;
-    color: var(--nav-bg-color);
+    color: black;
     opacity: 0.8;
     border-radius: 30px;
     font-weight: bold;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -1px 0 rgb(122, 186, 238), 0 1px steelblue, 1px 0 steelblue, 0 -1px steelblue;
     
 
 }
