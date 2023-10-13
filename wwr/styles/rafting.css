@@ -34,43 +34,44 @@ header {
     height: auto;
 }
 
-
-body nav a {
-    font-size: xx-large;
+.head {
     
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    
+        
 }
 
-nav {
+
+nav.head {
     background-color: var(--nav-bg-color);
     font-size: 1.2rem;
     display: flex
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    
   
 }
 
-nav li {
+nav.head li {
     flex: 1 1 100%;
 
 }
 
 
-nav a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    padding: 1rem;
-
-}
-
-nav a:hover {
+nav.head a:hover {
     color: #fff;
     background-color: black;
 }
 
-nav a:link {
+nav.head a:link {
     color: var(--nav-hover-background-color);
 }
 
-nav a:visited {
+nav.head a:visited {
     color: var(--nav-hover-background-color);
 }
 
@@ -163,6 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+
 /*The adrenaline-box picture:*/
 .hero article img {
     position: relative;
@@ -192,24 +194,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .sociallinks {
     text-decoration: none;
+    text-align: right;
     margin: 1rem auto;
-    display: flex;
-    /*align-items: center;*/
+    
+    align-items: right;
     border-bottom: 2px solid blueviolet;
 }
 
+
 .h3 {
-    /*padding-left: 40rem;*/
     color: whitesmoke;
-    font-size: larger;
-    
+    font-size: larger;   
 }
-/*
-footer {
-    margin: 1rem auto;
-    display: grid;
-    border-top: 2px solid blueviolet;
-    max-width: 1900px;
-    
-}
-*/
