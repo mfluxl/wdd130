@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.hero section p {
+section p {
     font-size: 30px;
     text-align: left;
 }
@@ -183,14 +183,14 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.hero section img {
+section img {
     width: 960px;
 
     /*max-height: auto;*/
     
 }
 
-.hero section {
+section {
     margin-top: 1px;
     font-size: 100%;
     text-align: center;
