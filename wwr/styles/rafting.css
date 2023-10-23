@@ -70,7 +70,7 @@ nav.head li {
 
 nav.head a:hover {
     color: #fff;
-    background-color: black;
+    background-color: white;
 }
 
 nav.head a:link {
@@ -78,11 +78,12 @@ nav.head a:link {
 }
 
 nav.head a:visited {
-    color: var(--nav-hover-background-color);
+    color: black;
 }
 
 body {
     max-width: 1900px;
+    background-color: var(--nav-bg-color);
     
 }
 
@@ -114,7 +115,7 @@ p {
 */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--nav-background-color);
 }
 
 .hero {
@@ -201,7 +202,7 @@ section {
 
 .sociallinks {
     text-decoration: none;
-    text-align: right;
+    text-align: left;
     margin: 1rem auto;
     border-bottom: 2px solid blueviolet;
 }
