@@ -220,3 +220,37 @@ section {
 
 
 
+.big-button {
+    display: inline-block;
+    padding: 15px 30px; /* Adjust padding as needed */
+    background-color: #0074e4; /* Background color */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    border: 2px solid #0074e4; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px;
+}
+
+.big-button:hover {
+    background-color: #0054a2; /* Hover background color */
+}
+
+/* Your existing CSS styles */
+/* ... */
+
+/* Add this CSS to style the team members */
+.team-member {
+    display: inline-block; /* Display the elements side by side */
+    margin: 10px; /* Adjust the margin as needed for spacing */
+    text-align: center; /* Center align content */
+}
+
+.team-member img {
+    width: auto;
+    height: 300px;
+}
+
+.team-member label {
+    display: block; /* Display the label as a block-level element */
+    text-align: center; /* Center-align the text */
+}
