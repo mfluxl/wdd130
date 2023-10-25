@@ -222,27 +222,25 @@ section {
 
 .big-button {
     display: inline-block;
-    padding: 15px 30px; /* Adjust padding as needed */
-    background-color: #0074e4; /* Background color */
-    color: #fff; /* Text color */
+    padding: 15px 30px; 
+    background-color: #0074e4;
+    color: #fff; 
     text-decoration: none;
-    border: 2px solid #0074e4; /* Border color */
-    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #0074e4; 
+    border-radius: 5px; 
     font-size: 18px;
 }
 
 .big-button:hover {
-    background-color: #0054a2; /* Hover background color */
+    background-color: #0054a2; 
 }
 
-/* Your existing CSS styles */
-/* ... */
 
-/* Add this CSS to style the team members */
+
 .team-member {
-    display: inline-block; /* Display the elements side by side */
-    margin: 10px; /* Adjust the margin as needed for spacing */
-    text-align: center; /* Center align content */
+    display: inline-block; 
+    margin: 10px; 
+    text-align: center; 
 }
 
 .team-member img {
@@ -251,97 +249,35 @@ section {
 }
 
 .team-member label {
-    display: block; /* Display the label as a block-level element */
-    text-align: center; /* Center-align the text */
+    display: block; 
+    text-align: center; 
 }
 
 .square-container {
     width: 100%;
     max-width: 100%;
-    padding: 0; /* Adjust the padding as needed */
+    padding: 0; 
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 0;
-    padding-bottom: 100%; /* Creates a square container */
+    padding-bottom: 100%; 
 }
 
 .image-container {
-    position: relative;
-    width: 50%; /* Adjust the width of image containers as needed */
-    height: 50%; /* Adjust the height of image containers as needed */
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+    justify-content: space-between;
+    margin: 20px;
 }
 
-.corner-image {
-    width: 100%; /* Adjust the width of images as needed */
-    height: 100%;
-    object-fit: cover;
+
+
+.image-container:nth-child(even) {
+    flex-direction: row-reverse; 
+    text-align: right; 
 }
 
-.image-description {
-    background: rgba(0, 0, 0, 0.7); /* Background color for the description */
-    color: #fff; /* Text color for the description */
-    position: absolute;
-    padding: 10px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    display: none;
+.image-container:nth-child(even) figure {
+    text-align: left; 
 }
-
-.image-container:hover .image-description {
-    display: block;
-}
-
-.square-container {
-    width: 100%;
-    max-width: 100%;
-    padding: 0; /* Adjust the padding as needed */
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 0;
-    padding-bottom: 100%; /* Creates a square container */
-}
-
-.image-container {
-    position: relative;
-    width: 50%; /* Adjust the width of image containers as needed */
-    height: 50%; /* Adjust the height of image containers as needed */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.corner-image {
-    width: 100%; /* Adjust the width of images as needed */
-    height: 100%;
-    object-fit: cover;
-}
-
-.image-description {
-    background: rgba(0, 0, 0, 0.7); /* Background color for the description */
-    color: #fff; /* Text color for the description */
-    position: absolute;
-    padding: 10px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    display: none;
-}
-
-.image-container:hover .image-description {
-    display: block;
-}
-
