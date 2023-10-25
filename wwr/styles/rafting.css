@@ -254,3 +254,93 @@ section {
     display: block; /* Display the label as a block-level element */
     text-align: center; /* Center-align the text */
 }
+
+.square-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0; /* Adjust the padding as needed */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    padding-bottom: 100%; /* Creates a square container */
+}
+
+.image-container {
+    position: relative;
+    width: 50%; /* Adjust the width of image containers as needed */
+    height: 50%; /* Adjust the height of image containers as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.corner-image {
+    width: 100%; /* Adjust the width of images as needed */
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-description {
+    background: rgba(0, 0, 0, 0.7); /* Background color for the description */
+    color: #fff; /* Text color for the description */
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: none;
+}
+
+.image-container:hover .image-description {
+    display: block;
+}
+
+.square-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0; /* Adjust the padding as needed */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    padding-bottom: 100%; /* Creates a square container */
+}
+
+.image-container {
+    position: relative;
+    width: 50%; /* Adjust the width of image containers as needed */
+    height: 50%; /* Adjust the height of image containers as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.corner-image {
+    width: 100%; /* Adjust the width of images as needed */
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-description {
+    background: rgba(0, 0, 0, 0.7); /* Background color for the description */
+    color: #fff; /* Text color for the description */
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: none;
+}
+
+.image-container:hover .image-description {
+    display: block;
+}
