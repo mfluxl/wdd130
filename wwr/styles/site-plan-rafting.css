@@ -1,131 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
-
 :root {
-
+    margin: 0;
+    padding: 0;
     --primary-color: #94c595;
     --secondary-color: #3a2449;
     --accent1-color: #94c595;
     --accent2-color: #747c92;
     --extra-color: #a1e8af;
+    --whitewater-color: rgb(67, 173, 255);
 
-    --heading-font: Georgia, serif;
-    --paragraph-font: Underdog;
-
-    --nav-background-color: #372772;
+    --nav-background-color: #3a2449;
     --nav-link-color: #372772;
-    --nav-hover-link-color: #747c92;
+    --nav-hover-link-color: #a1e8af;
     --nav-hover-background-color: #a1e8af;
+    --nav-bg-color: #429ad2;
+    
 }
 
-
-header {
-    padding: 20px;
-    color: var(--secondary-color);
-    font-size: 20px;
-    background-color: var(--primary-color);
-
-}
-
-body {
-    font-family: var(--paragraph-font);
-    background-color: var(--accent2-color);
-    max-width: 960px;
-    padding: 20px;
-    font-size: 16px;
+  
+    
+  main {
+    background-color: steelblue;
+    font-size: x-large;
     text-align: center;
-    margin: 0 auto
-}
+  
+  }
+  
 
 
-h1, h2, h3, h4, h5, h6 {
 
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-/*
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-
-
-h2 {
-    font-family: Arial, sans-serif;
-
-}
-*/
-
-/*
-h3,
-h4 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: var(--extra-color);
-
-}
-*/
-
-.smallerh3 {
-    font-size: smaller;
-    font-family: Roboto;
-}
-
-
-p {
-    padding: 25px;
-    font-family: 'Franklin Gothic Medium', sans-serif;
-    color: var(--secondary-color);
-    font-size: 18px;
-}
-
-
-.toplogo {
-    position: absolute;
-    display: block;
-    margin: 25px;
-
-}
-
-
-img {
-    display: block;
-    margin: 0 auto;
-
-}
-
-
-nav {
-    background-color: var(--accent1-color);
-    font-size: 1.2rem;
+  nav {
+    
+    background-color: steelblue;
     display: flex;
-}
-
-
-nav a {
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+  
+  
+  nav a {
+    
+    color: white;
     display: block;
-    color: #000;
+    padding: 20px;
+    font-size: 24px;
     text-decoration: none;
-    padding: 1rem;
+  }
+  
 
+  nav.head a:hover {
+    color: #fff;
+    background-color: white;
 }
 
-
-nav a:link {
+nav.head a:link {
     color: var(--nav-hover-background-color);
 }
 
-
-nav a:visited {
-    color: var(--nav-hover-link-color);
+nav.head a:visited {
+    color: black;
 }
 
 
-nav a:hover {
-    color: #000;
-    background-color: var(--nav-hover-background-color);
-}
-
-
-footer {
-    margin: 0 auto;
-}
+  h1 {
+    color: steelblue;
+    font-size: 33px;
+    border-bottom: 2px solid black;
+  }
+  
